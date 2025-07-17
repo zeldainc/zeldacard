@@ -1,0 +1,95 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      flex-direction: column;
+      align-items: center;
+      color: #333;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(to bottom right, #473cc2, #ade5f3, #f8bdf8);
+      background-image: url('recursos/Zeldas_profile.png');
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+      display: flex;
+      cursor: url('recursos/cursor.png') 0 0, auto;
+
+    }
+
+    .profile-img {
+      border: 5px solid #d9c2f1;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 20px 0 10px;
+      font-size: 2.5em;
+      color: #2c3e50;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.1em;
+      font-weight: 400;
+      color: #000000;
+      background-color:  rgba(157, 216, 240, 0.6);
+
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid transparent;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+.cuerpo {
+background: rgba(255, 255, 255, 0.2);  /* fondo translúcido */
+  backdrop-filter: blur(5px);           /* desenfoque */
+  -webkit-backdrop-filter: blur(5px);   /* para Safari */
+  min-height: 100vh;                     /* altura completa */
+  display: flex;                         /* activa Flexbox */
+  flex-direction: column;               /* contenido en columna */
+  justify-content: center;              /* centra vertical */
+  align-items: center;                  /* centra horizontal */
+  text-align: center;                   /* centra el texto */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+    .youtube { background: #fff; color: red; border-color: red; }
+    .twitch { background: #fff; color: #9146FF; border-color: #9146FF; }
+    .tiktok { background: #fff; color: black; border-color: black; }
+    .ko-fi { background: #fff; color: #FF5E5B; border-color: #FF5E5B; }
+    .discord { background: #fff; color: #5865F2; border-color: #5865F2; }
+    .spotify { background: #fff; color: #1DB954; border-color: #1DB954; }
+    .insta { background: #fff; color: #C13584; border-color: #C13584; }
+    .twitter { background: #fff; color: #1DA1F2; border-color: #1DA1F2; }
+    .facebook { background: #fff; color: #1877F2; border-color: #1877F2; }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+    }
